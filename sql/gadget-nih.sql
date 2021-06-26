@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Jun 27, 2021 at 03:39 AM
+-- Generation Time: Jun 27, 2021 at 03:50 AM
 -- Server version: 5.7.34-0ubuntu0.18.04.1
 -- PHP Version: 7.3.28-2+ubuntu18.04.1+deb.sury.org+1
 
@@ -40,8 +40,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `created_at`, `updated_at`) VALUES
-(1, 'admin', 'admin@gmail.com', '$2b$10$eb5lTIp.WvovqbPYDPT0suyaHlZ9zHkTSDnUKGp74EUwX0P46edDy', '2021-06-27 02:43:42', '2021-06-27 02:43:42'),
-(2, 'Felix Yunianto Gunawan', 'felixyunianto@gmail.com', '$2b$10$dDnqbO7NhmHJ5J/I3JsyluqkJbZfHIP7Bqu6Hwo.issaWQ93UVfBi', '2021-06-27 03:02:55', '2021-06-27 03:02:55');
+(1, 'admin', 'admin@gmail.com', '$2b$10$eb5lTIp.WvovqbPYDPT0suyaHlZ9zHkTSDnUKGp74EUwX0P46edDy', '2021-06-27 02:43:42', '2021-06-27 02:43:42');
 
 --
 -- Indexes for dumped tables
